@@ -1,2 +1,5 @@
-<h1>yeeter plx sir</h1>
-<%= year month day @hour @minute%>
+<p>The current time and date:</p>
+<h1>
+<%= @time.strftime("%b %d, %Y")%>
+</h1><br>
+<h1><%= @time.strftime("%I:%M %p")%></h1>
